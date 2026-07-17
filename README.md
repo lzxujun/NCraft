@@ -8,8 +8,11 @@ https://ncraft.ixujun.dpdns.org/nc-simulator
 
 v1.1.23整体只有3个文件：
 根目录（Web 站点根 or 子目录）/
+
 ├── nc-simulator.html          ← 主页面（唯一入口）
+
 └── manifold_local/
+
     ├── manifold.js            ← Manifold WASM 的 JS 加载器
     └── manifold.wasm          ← Manifold WASM 二进制（布尔运算核心）
 
