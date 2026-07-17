@@ -1,5 +1,18 @@
 # 板材加工NC路径模拟器
 
+最新v1.1.23放弃了Three.js + three-bvh-csg的渲染方案，使用了更高效的Manifold WASM 布尔运算库，提高对异形切割，圆弧切割等复杂切割效果的完美展示。代价是只能通过服务器运行才能正常加载Manifold WASM 布尔运算库。
+在此提供在线版本，目前搭建在免费的cloudflare page上，如果打不开，你可以下载最新版本压缩包，自行在本地搭建使用。
+
+在线使用，请访问：
+https://ncraft.ixujun.dpdns.org/nc-simulator
+
+v1.1.23整体只有3个文件：
+根目录（Web 站点根 or 子目录）/
+├── nc-simulator.html          ← 主页面（唯一入口）
+└── manifold_local/
+    ├── manifold.js            ← Manifold WASM 的 JS 加载器
+    └── manifold.wasm          ← Manifold WASM 二进制（布尔运算核心）
+
 #### 介绍
 这是一个用于模拟全屋定制行业常用NC路径模拟器，除能直观查看NC加工路径的运行过程外，还可以模拟板材的切割和打孔效果，方便在生产过程中查找问题。
 
