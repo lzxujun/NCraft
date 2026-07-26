@@ -10,6 +10,7 @@ https://ncraft.ixujun.dpdns.org/nc-simulator
 根目录（Web 站点根 or 子目录）/
 
 ├── nc-simulator_local.html          ← 本地调用版，需要搭建服务环境
+
 ├── nc-simulator_online.html          ← （推荐）远程调用版，单文件打开即可使用，如果不能正常加载，请替换manifold.js的镜像源地址
 
 └── manifold_local/
