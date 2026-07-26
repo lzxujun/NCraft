@@ -23,10 +23,17 @@ https://ncraft.ixujun.dpdns.org/nc-simulator
     https://cdn.jsdelivr.net/npm/manifold-3d@3.5.1/manifold.js
 
 - 国内可用 jsdelivr 镜像（推荐国内使用）：
-    https://jsd.onmicrosoft.cn/npm/manifold-3d@3.5.1/manifold.js
-    https://cdn.jsdmirror.cn/npm/manifold-3d@3.5.1/manifold.js
-    https://jsd.cdn.zzko.cn/npm/manifold-3d@3.5.1/manifold.js
 
+```
+https://jsd.onmicrosoft.cn/npm/manifold-3d@3.5.1/manifold.js
+```
+
+```
+https://cdn.jsdmirror.cn/npm/manifold-3d@3.5.1/manifold.js
+```
+```
+https://jsd.cdn.zzko.cn/npm/manifold-3d@3.5.1/manifold.js
+```
 
 #### 介绍
 这是一个用于模拟全屋定制行业常用NC路径模拟器，除能直观查看NC加工路径的运行过程外，还可以模拟板材的切割和打孔效果，方便在生产过程中查找问题。
