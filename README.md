@@ -1,7 +1,7 @@
 # 板材加工NC路径模拟器
 
 从v1.1.23放弃了Three.js + three-bvh-csg的渲染方案，使用了更高效的Manifold WASM 布尔运算库，提高对异形切割，圆弧切割等复杂切割效果的完美展示。
-在此提供在线版本，目前搭建在免费的cloudflare page上，如果打不开，你可以下载最新版本压缩包，使用远程调用版（单文件版远程加载JS库https://jsd.onmicrosoft.cn/npm/manifold-3d@3.5.1/manifold.js），如果不能正常使用可自行修改替换manifold.js镜像源，或者自行在本地搭建服务器使用。
+在此提供在线版本，目前搭建在免费的cloudflare page上，如果打不开，你可以下载最新版本压缩包，使用远程调用版（单文件版远程加载JS库），如果不能正常使用可自行修改替换manifold.js镜像源，或者自行在本地搭建服务器使用。
 
 临时在线使用，请访问：
 https://ncraft.ixujun.dpdns.org/nc-simulator
@@ -20,7 +20,10 @@ https://ncraft.ixujun.dpdns.org/nc-simulator
 ####其它可用的manifold.js镜像源地址：
 
 - 官方CDN镜像原（国外使用，国内可能慢）：
-    https://cdn.jsdelivr.net/npm/manifold-3d@3.5.1/manifold.js
+
+```
+https://cdn.jsdelivr.net/npm/manifold-3d@3.5.1/manifold.js
+```
 
 - 国内可用 jsdelivr 镜像（推荐国内使用）：
 
